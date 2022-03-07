@@ -1,0 +1,14 @@
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+127.0.0.1       www.twitter.com
+127.0.0.1       twitter.com
+127.0.0.1       www.meneame.net
+127.0.0.1       meneame.net
+127.0.0.1       www.retrorgb.com
+127.0.0.1       retrorgb.com
+127.0.0.1       www.gp32spain.com
+127.0.0.1       gp32spain.com
+127.0.0.1       www.eldiario.es
+127.0.0.1       eldiario.es
+
