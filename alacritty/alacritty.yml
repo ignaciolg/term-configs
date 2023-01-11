@@ -14,7 +14,9 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
+  SHELL: /opt/homebrew/bin/fish
+
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
@@ -402,11 +404,13 @@ font:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
- program: /bin/zsh
+# #  program: /bin/zsh
+ program: /opt/homebrew/bin/fish
  args:
    - --login
+  #  - -c "tmux attach || tmux"
    - -c
-   - "tmux attach || tmux"
+   - "/opt/homebrew/bin/tmux attach || /opt/homebrew/bin/tmux"
 
 
 # Startup directory
