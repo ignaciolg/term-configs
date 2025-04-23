@@ -14,8 +14,8 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-env:
-  SHELL: /opt/homebrew/bin/fish
+#env:
+#  SHELL: /opt/homebrew/bin/fish
 
   # TERM variable
   #
